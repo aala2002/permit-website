@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Contact — Permit &amp; Design Solutions</title>
+  <meta name="description" content="Book a free assessment or upload plans/documents to get started." />
+  
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0c1220" />
+<link rel="icon" type="image/png" href="assets/img/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+<script defer src="assets/js/main.js"></script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="strong">PERMIT &amp; DESIGN</span>
+      <span class="light">SOLUTIONS</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav">
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="process.html">Process</a>
+      <a href="pricing.html">Pricing</a>
+      <a class="contact" href="contact.html">Contact <span aria-hidden="true">›</span></a>
+      <span class="call">Call 1234 567 800</span>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <section class="pagehero">
+    <div class="container">
+      <div class="breadcrumbs">Home / Contact</div>
+      <h1 class="reveal">Contact</h1>
+      <p class="reveal" style="transition-delay:.06s">Book a free assessment or upload plans/documents to get started.</p>
+    </div>
+  </section>
+
+  
+<section class="section">
+  <div class="container">
+    <div class="grid4" style="grid-template-columns: 1.1fr .9fr; gap:1.2rem;">
+      <div class="card reveal">
+        <div class="card-body" style="text-align:left;">
+          <h3 id="book">Book / Enquire</h3>
+          <p style="color:var(--muted); font-weight:650;">
+            This is a static demo. Submitting opens your email app with a pre-filled message. Later we can connect a real form + file upload.
+          </p>
+
+          <form id="lead-form" class="form" data-to="contact@permitsolutions.com">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" required placeholder="Your name"/>
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" placeholder="04xx xxx xxx"/>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" required type="email" placeholder="you@email.com"/>
+            </div>
+            <div class="field">
+              <label for="service">Service</label>
+              <select id="service" name="service">
+                <option>Subdivision permits</option>
+                <option>Building permits</option>
+                <option>Architectural drawings</option>
+                <option>3D rendering</option>
+                <option>Interior design</option>
+                <option>General enquiry</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="address">Address / suburb</label>
+              <input id="address" name="address" placeholder="e.g. Werribee, VIC"/>
+            </div>
+            <div class="field">
+              <label for="timeline">Timeline</label>
+              <select id="timeline" name="timeline">
+                <option>ASAP</option>
+                <option>1–2 weeks</option>
+                <option>1 month</option>
+                <option>3 months+</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us what you're trying to do, and what documents you already have."></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">Send enquiry</button>
+            <div id="form-success" class="notice" style="display:none; margin-top:.8rem;">
+              If your email app didn’t open, email us at <b>contact@permitsolutions.com</b>.
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="card reveal" style="transition-delay:.06s;">
+        <div class="card-body" style="text-align:left;">
+          <h3 id="upload">Upload Plans / Documents</h3>
+          <p style="color:var(--muted); font-weight:650;">
+            Static sites can’t upload files without a backend. Use Dropbox File Request / Google Drive upload and paste the link here.
+          </p>
+          <div class="notice">
+            <b>Recommended:</b> Create a Dropbox File Request link and place it on this button.
+          </div>
+          <div style="margin-top:1rem;">
+            <a class="btn btn--secondary" href="#" onclick="alert('Replace this link with your Dropbox File Request or Drive upload link'); return false;">Open Upload Link</a>
+          </div>
+          <p class="small" style="margin-top:1rem;">
+            Want a full portal (login, uploads, tracking, payments)? This design is ready to upgrade.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="container fgrid">
+    <div>
+      <div class="fh">Services</div>
+      <a class="flink" href="services.html#subdivision">Subdivision Permits</a>
+      <a class="flink" href="services.html#building">Building Permits</a>
+      <a class="flink" href="services.html#rendering">3D Rendering</a>
+      <a class="flink" href="services.html#interior">Interior Design</a>
+    </div>
+
+    <div>
+      <div class="fh">Process</div>
+      <a class="flink" href="process.html">Our Process</a>
+      <a class="flink" href="pricing.html">Pricing</a>
+      <a class="flink" href="contact.html">Book / Upload</a>
+    </div>
+
+    <div>
+      <div class="fh">Company</div>
+      <a class="flink" href="about.html">About Us</a>
+      <a class="flink" href="portfolio.html">Portfolio</a>
+      <a class="flink" href="terms.html">Terms &amp; Conditions</a>
+      <a class="flink" href="privacy.html">Privacy Policy</a>
+    </div>
+
+    <div>
+      <div class="fh">Contact Info</div>
+      <div class="small">Call 1234 567 800</div>
+      <div class="small">contact@permitsolutions.com</div>
+      <div class="small" style="margin-top:.4rem;">Address</div>
+      <div class="small">123 Development Rd, Melbourne, VIC</div>
+      <div class="small" style="margin-top:.7rem;">Register</div>
+      <div class="small">ABN / Company info here</div>
+    </div>
+
+    <div>
+      <div class="fh">Email</div>
+      <div class="small">Call 1234 567 890</div>
+      <div class="small">contact@permitsolutions.com</div>
+      <div class="small" style="margin-top:.8rem;">Social</div>
+      <div class="small">Facebook · Instagram · LinkedIn</div>
+    </div>
+  </div>
+
+  <div class="container fbottom">
+    <div class="small">© 2026 Permit &amp; Design Solutions</div>
+    <div class="small">Privacy Policy · Terms &amp; Conditions · Disclaimer</div>
+  </div>
+</footer>
+
+</body>
+</html>
